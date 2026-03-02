@@ -1,65 +1,8 @@
 <html>
     <head>
-        <title> Успокоение Инсара </title>
+        <title> Помоги, брат </title>
     </head>
-    <body bgcolor="green">
-
-    <button class="pulse-button" onclick="toggleSound()">
-  Кликай, не бойся
-</button>
-
-<audio id="mySound" src="china.mp3"></audio>
-
-<script>
-  function toggleSound() {
-    const audio = document.getElementById("mySound");
-    if (audio.paused) {
-      audio.play();
-    } else {
-      audio.pause();
-      audio.currentTime = 0;
-    }
-  }
-</script>
-
-<style>
-.pulse-button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 50%;
-  width: 50%;
-  font-size: 32px;
-  color: white;
-  font-weight: bold;
-  border: none;
-  border-radius: 20px;
-  background-image: url('china.jpg');
-  background-color: transparent;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  text-shadow: 2px 2px 5px black;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
-  transition: transform 0.2s ease;
-}
-
-/* Анимация "пульсации" */
-.pulse-button:active {
-  animation: pulse 1s ease;
-}
-
-@keyframes pulse {
-  0%   { transform: translate(-50%, -50%) scale(1); }
-  50%  { transform: translate(-50%, -50%) scale(0.9); }
-  100% { transform: translate(-50%, -50%) scale(1); }
-}
-</style>
-
-
-
-
+    <body background="bro.jpg">
     </body>
+
 </html>
