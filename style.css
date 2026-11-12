@@ -126,6 +126,15 @@ body {
     margin-bottom: 30px;
 }
 
+/* TABLE */
+
+.table{
+    background-color: white;
+    border: 1px solid #e3e5eb;
+    border-radius: 12px;
+    padding: 25px;
+    width: 100%;
+}
 /* CARDS */
 
 .cards {
